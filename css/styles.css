@@ -1,0 +1,35 @@
+*{
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #efeeee;
+}
+
+section{
+    display: flex;
+}
+
+
+.componente1{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 11cm;
+    width: 7cm;
+    margin: 1cm;
+
+}
+
+.palabras{
+    display: flex;
+}
+.componente2{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 14cm;
+    width: 7cm;
+    margin: 1cm;
+
+}
