@@ -13,81 +13,6 @@ section{
     flex-wrap: wrap;
 }
 
-
-.componente1{
-    background-color: #f9f9f9;
-    border-radius: 20px;
-    font-size: 15px;
-    height: 10cm;
-    width: 7cm;
-    margin: 1cm;
-    padding: 0px 15px;
-    box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);}
-
-.componente1 p{
-    font-size: 13px;
-    margin: 0px 10px 0px 0px;
-}
-
-
-.palabras{
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    
-}
-
-.palabras h4{
-    font-size: 11px;
-    text-align: center;
-    border-radius: 6px;
-    background-color: #efeeee;
-    margin-right: 6px;
-    padding: 3px;
-}
-
-hr{
-    border-top: 1px dashed;
-    color: #efeeee;
-    width: 90%;
-}
-
-
-
-.boton1{
-    background-color: #3880f8 ;
-    border-radius: 10px;
-    border: none;
-    width: 6cm;
-    height:1.2cm ;
-    color: white;
-}
-
-.componente2{
-    color: white;
-    border-radius: 20px;
-    font-size: 15px;
-    height: 12cm;
-    width: 7cm;
-    margin: 1cm;
-    padding: 10px 20px;
-    box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);
-    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
-}
-
-
-.boton2{
-    border-radius: 10px;
-    background-color: #3e3e3e;
-    color: white;
-    border:none;
-    padding: 10px 15px;
-    font-size: 12px;
-    box-shadow: 0px 0px 1px 0px #91b8b3;
-
-}
-
-
 .dinero{
     font-size: 40px;
 }
@@ -110,13 +35,100 @@ hr{
     font-size: 18px;
 }
 
+
+/* Clases utilizadas para tarjeta el componente 1 - */
+.componente1{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 9.2cm;
+    width: 7cm;
+    margin: 30px 10px;
+    padding: 0px 15px;
+    box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);}
+
+.componente1 p{
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+}
+
+.section2{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.palabras{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+.parrafo{
+    margin-bottom: 6px;
+}
+
+
+.palabras h4{
+    font-size: 11px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #efeeee;
+    margin-right: 6px;
+    margin-top: 4px;
+    padding: 3px;
+}
+
+hr{
+    border-top: 1px dashed;
+    color: #efeeee;
+    width: 90%;
+}
+
+
+
+.boton1{
+    background-color: #3880f8 ;
+    border-radius: 10px;
+    border: none;
+    width: 7cm;
+    height:1.2cm ;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Clases utilizadas para el componente 2- */
+
+.componente2{
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 12cm;
+    width: 7cm;
+    margin: 30px 0px 10px 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);
+    background: rgb(56,56,56);
+    background: linear-gradient(180deg, rgba(56,56,56,1) 50%, rgba(23,22,22,1) 100%);
+}
+
+.boton2{
+    border-radius: 10px;
+    background-color: #3e3e3e;
+    color: white;
+    border:none;
+    padding: 10px 15px;
+    font-size: 12px;
+    box-shadow: 0px 0px 1px 0px #91b8b3;
+
+}
+
 .stats{
     color: white;
     font-size: 18px;
     margin-right: 146px;
 }
-
-
 
 .contenedor{
     display: flex;
@@ -145,6 +157,8 @@ hr{
     color: black;
     font-size: 20px;
     padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
 
 
 }
@@ -166,13 +180,14 @@ hr{
     margin:  4px 0px ;
 }
 
+/* Clases utilizadas para el componente 3 */
 .componente3{
-    background-color: #f9f9f9;
-    border-radius: 20px;
+    background: rgb(250,250,250);
+    background: linear-gradient(180deg, rgba(250,250,250,1) 56%, rgba(226,199,241,1) 100%);    border-radius: 20px;
     font-size: 15px;
-    height: 10cm;
+    height: 7.9cm;
     width: 7cm;
-    margin: 1cm;
+    margin: 10px 10px;
     padding: 0px 15px;
     box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);
     text-align: center;
@@ -193,13 +208,15 @@ hr{
 
 }
 
+/* Clases utilizadas para el componente 4 */
+
 .componente4{
     background-color: #f9f9f9;
     border-radius: 20px;
     font-size: 15px;
     height: 5cm;
     width: 7cm;
-    margin: 1cm;
+    margin: 10px 10px;
     padding: 10px 15px;
     box-shadow: 0px 3px 20px -3px rgba(125,120,120,1);
 }
@@ -211,8 +228,6 @@ hr{
     margin-bottom: 0px;
 }
 
-
-
 .boton4{
     border-radius: 10px;
     background-color: #f6f7f8;
@@ -223,11 +238,9 @@ hr{
     box-shadow: 0px 1px 10px 0px #91b8b3;
 }
 
-
 .prueba2 {
-    margin:  20px 0px 0px 0px ;
+    margin:  20px 30px 0px 0px ;
 }
-
 
 .gris2 {
     color: grey;
@@ -241,6 +254,90 @@ hr{
     border: 0.1px;
     box-shadow: 0px 1px 10px 0px #91b8b3;
     padding: 7px;
+    margin-left:50px ;
 
 }
 
+.img1{
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.img2{
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+
+/* Barras y cuadrados utilizados para realizar la barra de Availability e Income */
+
+.barra{
+    background-color:#0b8aff ;
+    height: 40px;
+    width: 6px;
+    border-radius: 10px;
+    font-size: 0px;
+    margin-right: 4px;
+}
+
+.barra2{
+    background-color:#494949 ;
+    height: 40px;
+    width: 6px;
+    border-radius: 10px;
+    font-size: 0px;
+    margin-right: 4px;
+}
+
+.barra3{
+    background-color:#f66a37 ;
+    height: 40px;
+    width: 6px;
+    border-radius: 10px;
+    font-size: 0px;
+    margin-right: 4px;
+}
+
+.section1 {
+    margin-right:40px ;
+}
+
+.cuadrado{
+    background-color:#3c94f7 ;
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 3px;
+    font-size: 0px;
+}
+
+.cuadrado1{
+    background-color:#ff91e0 ;
+    width: 40px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 3px;
+    font-size: 0px;
+}
+
+.cuadrado2{
+    background-color:#fdbd12 ;
+    width: 15px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 3px;
+    font-size: 0px;
+}
+
+
+.cuadrado3{
+    background-color:#f76a37 ;
+    width: 15px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 3px;
+    font-size: 0px;
+}
